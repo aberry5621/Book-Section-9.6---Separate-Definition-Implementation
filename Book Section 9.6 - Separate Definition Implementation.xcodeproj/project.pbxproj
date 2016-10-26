@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E20C2BC01DC16CAC00B910C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20C2BBF1DC16CAC00B910C6 /* main.cpp */; };
+		E20C2BC91DC16D7D00B910C6 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20C2BC71DC16D7D00B910C6 /* Circle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E20C2BBC1DC16CAC00B910C6 /* Book Section 9.6 - Separate Definition Implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Book Section 9.6 - Separate Definition Implementation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20C2BBF1DC16CAC00B910C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E20C2BC61DC16CE900B910C6 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		E20C2BC71DC16D7D00B910C6 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E20C2BBF1DC16CAC00B910C6 /* main.cpp */,
+				E20C2BC61DC16CE900B910C6 /* Circle.h */,
+				E20C2BC71DC16D7D00B910C6 /* Circle.cpp */,
 			);
 			path = "Book Section 9.6 - Separate Definition Implementation";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20C2BC01DC16CAC00B910C6 /* main.cpp in Sources */,
+				E20C2BC91DC16D7D00B910C6 /* Circle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
